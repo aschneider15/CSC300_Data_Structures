@@ -1,0 +1,26 @@
+package defPackage;
+
+public class Salesman {
+	
+	private String name;
+	private double salesTotal;
+	
+	public Salesman(String name, double salesTotal) {
+		this.name = name;
+		this.salesTotal = salesTotal;
+	}
+	
+	
+	public String getName() {
+		return this.name;
+	}
+	
+	public double getSales() {
+		return this.salesTotal;
+	}
+	
+	public void setSales(double salesTotal) {
+		this.salesTotal = salesTotal;
+	}
+
+}
