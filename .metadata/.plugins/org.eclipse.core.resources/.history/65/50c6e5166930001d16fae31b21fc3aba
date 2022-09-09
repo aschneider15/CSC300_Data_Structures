@@ -3,9 +3,9 @@ package defPackage;
 public class Salesman {
 	
 	private String name;
-	private double salesTotal;
+	private int salesTotal;
 	
-	public Salesman(String name, double salesTotal) {
+	public Salesman(String name, int salesTotal) {
 		this.name = name;
 		this.salesTotal = salesTotal;
 	}
@@ -15,11 +15,11 @@ public class Salesman {
 		return this.name;
 	}
 	
-	public double getSales() {
+	public int getSales() {
 		return this.salesTotal;
 	}
 	
-	public void setSales(double salesTotal) {
+	public void setSales(int salesTotal) {
 		this.salesTotal = salesTotal;
 	}
 
