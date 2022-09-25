@@ -29,7 +29,7 @@ public class Driver {
 		phrase = phrase.toLowerCase();
 		key = key.toLowerCase();
 		for(int i = 0; i < phrase.length(); i++) {
-			if(phrase.charAt(i) < 'a' || phrase.charAt(i) > 'z') {
+			if(phrase.charAt(i) < 'a' || phrase.charAt(i) > 'z') { 
 				phrase = phrase.replace(phrase.charAt(i), ' ');
 			}
 		}
