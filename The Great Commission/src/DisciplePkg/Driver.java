@@ -15,7 +15,7 @@ public class Driver {
 	public static int howManyYears(long initialDisciples, long totalPop) {
 		int years = 0;
 		while(initialDisciples < totalPop) {
-			initialDisciples *=2;
+			initialDisciples *=3;
 			years += 3;
 		}
 		return years;
