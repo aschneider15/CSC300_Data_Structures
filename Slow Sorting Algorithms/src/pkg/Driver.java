@@ -23,6 +23,10 @@ public class Driver {
 		printArray(insert);
 		sort_insertion(insert);
 		printArray(insert);
+		
+		printArray(shella);
+		sort_shell(shella);
+		printArray(shella);
 	}
 	
 	public static void printArray(int[] arr) {
@@ -93,6 +97,18 @@ public class Driver {
 	public static void sort_shell(int[] arr) {
 		int comparisonCount = 0;
 		int swapCount = 0;
-		int gap = (int)(Math.log(arr.length) / Math.log(2)) -1;
+		for(int gap = (int)(Math.log(arr.length) / Math.log(2)) -1; gap > 0; gap--) {
+			for(int i = gap; i < arr.length; i++) {
+				int j = i;
+				comparisonCount++;
+				while(j >= gap && arr[j] < arr[j-gap]) {
+					swapElements(arr, j, j-gap);
+					swapCount++;
+					j-=gap;
+				}
+			}
+		}
+		System.out.println("Finished! Number of Comparisons: " + comparisonCount 
+				+ "\tNumber of swaps: " + swapCount);
 	}
 }
