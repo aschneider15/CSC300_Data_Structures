@@ -1,13 +1,14 @@
 INDEX VERSION 1.131+D:\Repos\CSC300_Data_Structures\.metadata\.plugins\org.eclipse.jdt.core
-2102158575.index
-904131110.index
 2772277598.index
-2856497994.index
-1616039665.index
-2371707295.index
-1641578022.index
 172708985.index
-1865797976.index
+2856497994.index
+1641578022.index
+2371707295.index
 4133013.index
 3439879560.index
+904131110.index
+1865797976.index
+2102158575.index
+1616039665.index
 2380175872.index
+2687503128.index
