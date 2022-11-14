@@ -113,7 +113,7 @@ public class LinkedList {
 		 */
 		Node marker = this.head.next;
 		while(marker != null) {
-			Node curNode = marker;
+			Node curNode = marker.prev;
 			while(curNode != null) {
 				if(marker.data < curNode.data) {
 					swap(marker, curNode);
