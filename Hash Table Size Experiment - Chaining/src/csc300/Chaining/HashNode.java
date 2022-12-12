@@ -1,4 +1,4 @@
-package csc300;
+package csc300.Chaining;
 
 public class HashNode {
 	public String Key;
